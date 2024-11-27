@@ -1,0 +1,19 @@
+@import 'base/fonts';
+
+* {
+    font-style: normal;
+    box-sizing: border-box;
+    line-height: normal;
+}
+
+body {
+    background-color: #1B1D21;
+    margin: 0 0;
+}
+
+@import 'blocks/header';
+@import 'blocks/wheel';
+@import 'blocks/attempts';
+@import 'blocks/buttons';
+@import 'blocks/navigation';
+@import 'base/dynamic'

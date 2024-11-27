@@ -1,0 +1,15 @@
+.navigation {
+    padding: 34px 338px 25px 865px;
+    background-color: #000;
+    display: flex;
+    font-family: 'GothamPro-Medium';
+    font-size: 14px;
+    line-height: 13px;
+    &-item {
+        margin-right: 86px;
+        a {
+            text-decoration: none;
+            color: #ffff;
+        }
+    }
+}

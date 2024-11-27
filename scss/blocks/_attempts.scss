@@ -1,0 +1,49 @@
+.content__attempts {
+    margin-top: 155px;
+    &__count {
+        font-family: 'GothamPro-Bold';
+        font-size: 24px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    &__description {
+        font-family: 'GothamPro';
+        font-size: 14px;
+        line-height: 150%;
+        color: #A1A1A1;
+        margin-top: 46px;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 356px 160px;
+        grid-template-rows: 70px;
+        grid-auto-rows: 70px;
+        margin-top: 42px;
+        gap: 20px 10px;
+        &__item {
+            width: 356px;
+            height: 69px;
+            grid-column: 1 / 2;
+            background-color: #2E3135;
+            border-radius: 4px;
+            display: flex;
+            padding: 27px 19px 0;
+            justify-content: space-between;
+            font-family: 'GothamPro';
+            font-size: 14px;
+            line-height: 13px;
+            color: #FFFFFF;
+            &-active {
+                background-color: #202329;
+            }
+            &__points {
+                font-size: 12px;
+                line-height: 11px;
+            }
+        }
+    }
+}
+
+.btn {
+    grid-column: 2 / 3;
+}

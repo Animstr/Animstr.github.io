@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/index.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1 class="header">
+        <span>Крутите</span> колесо <br>
+        <span>и выигрывайте</span> вкусные призы!</span>
+    </h1>
+</header>
+
+<section class="content">
+    <div class="content__wheel">
+        <div class="content__wheel__arrow"></div>
+        <div class="content__wheel__segments">
+            <div class="content__wheel__segment"></div>
+            <div class="content__wheel__segment"></div>
+            <div class="content__wheel__segment"></div>
+            <div class="content__wheel__segment"></div>
+            <div class="content__wheel__segment"></div>
+            <div class="content__wheel__segment"></div>
+            <div class="content__wheel__segment"></div>
+        </div>
+        <div class="content__wheel__ring"></div>
+        <div class="content__wheel__slot"></div>
+        <button class="content__wheel__btn">
+            КРУТИТЬ!
+        </button>
+    </div>
+
+    <div class="content__attempts">
+        <h2 class="content__attempts__count">Всего попыток: 2</h2>
+        <div class="content__attempts__description">
+            Выполните задание и нажмите кнопку “Готово”, чтобы получить <br>
+            дополнительную попытку крутить колесо
+        </div>
+        <div class="content__attempts__list">
+            <div data-list="1" class="content__attempts__list__item">
+                <div class="content__attempts__list__item__requirement">Подпишитесь на сообщество</div>
+                <div class="content__attempts__list__item__points">+1 попытка</div>
+            </div>
+            <button data-btn="1" class="btn">Готово</button>
+            <div data-list="2" class="content__attempts__list__item">
+                <div class="content__attempts__list__item__requirement">Подпишитесь на рассылку</div>
+                <div class="content__attempts__list__item__points">+1 попытка</div>
+            </div>
+            <button data-btn="2"class="btn">Готово</button>
+            <div data-list="3" class="content__attempts__list__item content__attempts__list__item-active">
+                <div class="content__attempts__list__item__requirement">Сделайте репост о конкурсе ВК</div>
+                <div class="content__attempts__list__item__points">+1 попытка</div>
+            </div>
+            <button data-btn="3" class="btn btn-active">Начислено</button>
+            <div data-list="4" class="content__attempts__list__item">
+                <div class="content__attempts__list__item__requirement">Оформите заказ по ссылке</div>
+                <div class="content__attempts__list__item__points">+1 попытка</div>
+            </div>
+            <button data-btn="4" class="btn">Готово</button>
+            <div data-list="5" class="content__attempts__list__item">
+                <div class="content__attempts__list__item__requirement">Загрузите чек</div>
+                <div class="content__attempts__list__item__points">+1 попытка</div>
+            </div>
+            <button data-btn="5" class="btn">Готово</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="navigation">
+        <div class="navigation-item"><a href="#">Оферта</a></div>
+        <div class="navigation-item"><a href="#">Правила конкурса</a></div>
+    </div>
+</footer>
+<script src="./js/index.js"></script>
+</body>
+</html>
