@@ -12,6 +12,9 @@
         line-height: 150%;
         color: #A1A1A1;
         margin-top: 46px;
+        &__1024breakpoint {
+            display: none;
+        }
     }
     &__list {
         display: grid;
@@ -21,8 +24,6 @@
         margin-top: 42px;
         gap: 20px 10px;
         &__item {
-            width: 356px;
-            height: 69px;
             grid-column: 1 / 2;
             background-color: #2E3135;
             border-radius: 4px;
